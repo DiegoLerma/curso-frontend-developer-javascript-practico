@@ -4,7 +4,7 @@ const burgerToogleMenu=document.querySelector('.menu')
 const mobileMenu=document.querySelector('.mobile-menu')
 const cartToogleMenu=document.querySelector('.navbar-shopping-cart')
 const cardsContainer=document.querySelector('.cards-container')
-const shoppingCartMenu=document.querySelector('.product-detail')
+const shoppingCartMenu=document.querySelector('#shoppingCartContainer')
 
 emailToogleMenu.addEventListener('click', toggleDesktopMenu)
 burgerToogleMenu.addEventListener('click', toggleMobileMenu)
